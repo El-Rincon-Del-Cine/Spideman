@@ -1,0 +1,71 @@
+body {
+    background:url(/img/spiderman.jpg);
+    background-repeat:repeat;
+    background-attachment:scroll; 
+    background-size: 40%;
+    margin: 0;
+    padding: 0;
+     }
+
+   p{
+    color: white;
+    font-size: 18px;
+   }
+
+   div {
+    background: url(/img/ff3.jpg) repeat-x;
+    background-size: 40% 15%;
+    padding: 20px;
+}
+
+@media (max-width: 1080px) and (max-height: 2412px) {
+
+    body {
+        background: url(/img/spiderman.jpg);
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-size: 20%;
+        margin: 0 20px;
+    }
+    div {
+        background: url(/img/ff3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100% 15%; 
+        background-position: top center;
+    }
+
+    p{
+        font-size: 55px;
+        margin: 0;
+        padding: 10px;
+    }
+
+    @media (max-width: 720px) and (max-height: 1080px) {
+
+        body {
+            background: url(/img/spiderman.jpg);
+            background-repeat: repeat; 
+            background-attachment: fixed; 
+            background-size: auto; 
+            background-position: top center;
+            margin: 0;
+            padding: 0;
+        }
+    
+        div {
+            background: url(/img/ff3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: 100% 18%; 
+            background-position: top center;
+        }
+    
+        p {
+            font-size: 34px; 
+            margin: 0;
+            margin: 20px 20px; 
+            padding: 10px; 
+        }
+    }
+}

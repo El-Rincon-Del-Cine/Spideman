@@ -1,0 +1,37 @@
+{
+    "name": "Hola mundo",
+    "short_name": "Hola",
+    "description": "Plantilla manifest para PWA",
+    "lang": "es-MX",
+    "display": "standalone",
+    "background_color":"#ee8e3a",
+    "theme_color":"#000000",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "img/ic4.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "img/ic4.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "id": "/index.html",
+    "start_url": "/index.html",
+    "screenshots":[
+        {
+        "src":"img/captura.PNG",
+        "sizes":"1348x609",
+        "type":"image/png",
+        "form_factor":"wide"
+        },
+        {
+        "src":"img/pc2.png",
+        "sizes":"323x486",
+        "type":"image/png"
+    }
+    ]
+}
