@@ -1,5 +1,5 @@
 body {
-    background:url(img/spiderman.jpg);
+    background:url(/img/spiderman.jpg);
     background-repeat:repeat;
     background-attachment:scroll; 
     background-size: 40%;
@@ -13,7 +13,7 @@ body {
    }
 
    div {
-    background: url(img/ff3.jpg) repeat-x;
+    background: url(/img/ff3.jpg) repeat-x;
     background-size: 40% 15%;
     padding: 20px;
 }
@@ -21,14 +21,14 @@ body {
 @media (max-width: 1080px) and (max-height: 2412px) {
 
     body {
-        background: url(img/spiderman.jpg);
+        background: url(/img/spiderman.jpg);
         background-repeat: repeat;
         background-attachment: scroll;
         background-size: 20%;
         margin: 0 20px;
     }
     div {
-        background: url(img/ff3.jpg);
+        background: url(/img/ff3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-size: 100% 15%; 
@@ -44,7 +44,7 @@ body {
     @media (max-width: 720px) and (max-height: 1080px) {
 
         body {
-            background: url(img/spiderman.jpg);
+            background: url(/img/spiderman.jpg);
             background-repeat: repeat; 
             background-attachment: fixed; 
             background-size: auto; 
@@ -54,7 +54,7 @@ body {
         }
     
         div {
-            background: url(img/ff3.jpg);
+            background: url(/img/ff3.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             background-size: 100% 18%; 
