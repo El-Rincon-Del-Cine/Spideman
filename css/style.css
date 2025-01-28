@@ -31,13 +31,13 @@ body {
         background: url(/img/ff3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-size: 80% 10%; 
+        background-size: auto 10%; 
         background-position: top center;
         margin-bottom: 20px;
     }
 
     p{
-        font-size: 15px;
+        font-size: 5px;
         margin: 0;
         padding: 10px;
     }
@@ -58,13 +58,13 @@ body {
             background: url(/img/ff3.jpg);
             background-repeat: no-repeat;
             background-size: cover;
-            background-size: 80% 10%; 
+            background-size: auto 10%; 
             background-position: top center;
             margin-bottom: 25px;
         }
     
         p {
-            font-size: 34px; 
+            font-size: 4px; 
             margin: 0;
             margin: 20px 20px; 
             padding: 10px; 
