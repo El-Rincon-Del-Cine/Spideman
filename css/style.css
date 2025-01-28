@@ -18,7 +18,7 @@ body {
     padding: 20px;
 }
 
-@media (max-width: 1080px) and (max-height: 2412px) {
+@media (max-width: 1080px) and (min-height: 2400px) {
 
     body {
         background: url(/img/spiderman.jpg);
@@ -31,12 +31,13 @@ body {
         background: url(/img/ff3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-size: 100% 15%; 
+        background-size: 80% 10%; 
         background-position: top center;
+        margin-bottom: 20px;
     }
 
     p{
-        font-size: 55px;
+        font-size: 15px;
         margin: 0;
         padding: 10px;
     }
@@ -57,8 +58,9 @@ body {
             background: url(/img/ff3.jpg);
             background-repeat: no-repeat;
             background-size: cover;
-            background-size: 100% 18%; 
+            background-size: 80% 10%; 
             background-position: top center;
+            margin-bottom: 25px;
         }
     
         p {
